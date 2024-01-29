@@ -1,0 +1,58 @@
+.headcontainer /*หัวชื่อ */ {
+    text-align: center;
+    padding: 10px;
+    max-width: 100%;
+    margin: auto;  
+    align-items: center;  
+    justify-content: center;
+    --bs-table-bg: #e18506;
+    font-family: 'Cordia New' ; 
+    font-size: 50px;
+ 
+
+  }
+
+.secheadtable{
+    --bs-table-bg: #fccb89;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Cordia New' ; 
+    font-weight: bold;
+}
+.botheadtable{
+    --bs-table-bg: #fddcaf;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Cordia New' ; 
+    font-weight: bold;
+}
+
+.table th,
+.table td {
+  text-align: center;
+ 
+}
+
+.lightorange1{
+    --bs-table-bg: #feeed7;
+    font-size: 28px;
+    font-family: 'Cordia New' ; 
+}
+.darkorange1{
+    --bs-table-bg: #fddcaf;
+    font-size: 28px;
+    font-family: 'Cordia New' ; 
+}
+.lightgreen1{
+    --bs-table-bg: #eff5e9;
+    font-size: 28px;
+    font-family: 'Cordia New' ; 
+}
+.darkgreen1{
+    --bs-table-bg: #deedd0;
+    font-size: 28px;
+    font-family: 'Cordia New' ; 
+}
+.table {
+  border: 2px solid white; /* เส้นขอบของตารางทั้งหมดเป็นสีขาว */
+}
