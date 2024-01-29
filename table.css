@@ -1,54 +1,45 @@
 .headcontainer /*หัวชื่อ */ {
-    text-align: center;
-    padding: 10px;
     max-width: 100%;
-    margin: auto;  
-    align-items: center;  
-    justify-content: center;
     --bs-table-bg: #e18506;
     font-family: 'Cordia New' ; 
     font-size: 50px;
- 
-
   }
 
-.secheadtable{
+.secheadtable /*รองหัวเรื่อง */ {
     --bs-table-bg: #fccb89;
-    text-align: center;
     font-size: 42px;
     font-family: 'Cordia New' ; 
     font-weight: bold;
 }
-.botheadtable{
+.botheadtable{ /*หัวเรื่องแต่ละข้อ */ 
     --bs-table-bg: #fddcaf;
-    text-align: center;
     font-size: 32px;
     font-family: 'Cordia New' ; 
     font-weight: bold;
 }
 
-.table th,
+.table th, /*ปรับให้ข้อความในตารางอยู่ตรงกลาง */ 
 .table td {
   text-align: center;
  
 }
 
-.lightorange1{
+.lightorange1{ /*สีส้มอ่อนในตาราง*/ 
     --bs-table-bg: #feeed7;
     font-size: 28px;
     font-family: 'Cordia New' ; 
 }
-.darkorange1{
+.darkorange1{  /*สีส้มเข้มในตาราง */ 
     --bs-table-bg: #fddcaf;
     font-size: 28px;
     font-family: 'Cordia New' ; 
 }
-.lightgreen1{
+.lightgreen1{ /*สีเขียวอ่อน */ 
     --bs-table-bg: #eff5e9;
     font-size: 28px;
     font-family: 'Cordia New' ; 
 }
-.darkgreen1{
+.darkgreen1{/*สีเขียวเข้มในตาราง */ 
     --bs-table-bg: #deedd0;
     font-size: 28px;
     font-family: 'Cordia New' ; 
