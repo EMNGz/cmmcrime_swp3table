@@ -1,8 +1,8 @@
 .headcontainer /*หัวชื่อ */ {
     max-width: 100%;
-    --bs-table-bg: #e18506;
+   
     font-family: 'Cordia New' ; 
-    font-size: 50px;
+    font-size: 40px;
   }
 
 .secheadtable /*รองหัวเรื่อง */ {
@@ -21,11 +21,15 @@
 .table th, /*ปรับให้ข้อความในตารางอยู่ตรงกลาง */ 
 .table td {
   text-align: center;
+  border: 1px solid black;
  
 }
+th.headcontainer {
+    border: none;
+  }
 
 .lightorange1{ /*สีส้มอ่อนในตาราง*/ 
-    --bs-table-bg: #feeed7;
+    --bs-table-bg: #72A3B2;
     font-size: 28px;
     font-family: 'Cordia New' ; 
 }
@@ -35,7 +39,7 @@
     font-family: 'Cordia New' ; 
 }
 .lightgreen1{ /*สีเขียวอ่อน */ 
-    --bs-table-bg: #eff5e9;
+    --bs-table-bg: #CBF4FA;
     font-size: 28px;
     font-family: 'Cordia New' ; 
 }
